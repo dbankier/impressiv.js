@@ -26,6 +26,7 @@ The are three different routes depending on the viewing mode.
   impress.js. It connects to the node.js server over websockets to
 progress the slide for the audience. (It uses basic authetication.)
 * /live/{presi} - view for the audience.
+
 Replace "{presi}" with the the name of your jade file without the
 extension (e.g. sample). 
 
