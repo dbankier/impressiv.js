@@ -1,0 +1,23 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/impress-demo.css')
+    script(src="/javascripts/jquery-1.4.2.min.js")
+    if mode === "standard"
+      script(src="/javascripts/impress.js")
+    else
+      script(src="/socket.io/socket.io.js")
+      script(src="/javascripts/impress_passive.js")
+      if mode == "live"
+        script(src="/javascripts/audience_socket.js")
+      else
+        script(src="/javascripts/host_socket.js")
+        script(src="/javascripts/impress_controls.js")
+      script(type="text/javascript")
+        $(document).ready(function() {
+          impressiv.init("#{presi}","#{session}");
+        });
+
+  body!= body
