@@ -5,6 +5,7 @@ impressiv.js is node.js app that allows you to host your impress.js
 presentation to an online audience.
 
 It uses:
+
 * node.js
 * express.js
 * socket.io
@@ -19,6 +20,7 @@ Add your impress.js presentation in the /views directory in the as jade files. Y
 
 ### Routes
 The are three different routes depending on the viewing mode. 
+
 * /view/{presi} - normal viewing mode, ie, standard impress.js
 * /host/{presi} - page for the presenter. Use it the same way as you use
   impress.js. It connects to the node.js server over websockets to
@@ -29,6 +31,7 @@ extension (e.g. sample).
 
 ### Configuration
 All over the place at the moment.
+
 * host password - app.js (line 44)
 * hostname - change them in audience\_socket.js and host\_socket.js
 
