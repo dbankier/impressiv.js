@@ -60,7 +60,7 @@ function basic_auth (req, res, next) {
 
 // Presentation exists middleware 
 function presi_exists(req,res,next) {
-  require("path").exists(__dirname + "/views/" + req.params.presi + ".jade", function(exists) {
+  require("path").exists(__dirname + "/views/presentations/" + req.params.presi + ".jade", function(exists) {
     if (exists) {
       next();
       return;

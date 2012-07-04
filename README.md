@@ -16,7 +16,7 @@ It uses:
 HOW TO USE IT
 ---------------
 ### Presentations
-Add your impress.js presentation in the /views directory in the as jade files. You should only include the body. Have a look at sample.jade for an example.
+Add your impress.js presentation in the /views/presentations directory as jade files. You should only include the body. Have a look at sample.jade for an example.
 
 ### Routes
 The are three different routes depending on the viewing mode. 

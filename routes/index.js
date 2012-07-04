@@ -8,5 +8,5 @@ exports.index = function(req, res){
 };
 
 exports.presi = function(req, res, mode, presi, session) {
-  res.render(presi, {title: presi, presi: presi, session: session, mode: mode});
+  res.render('presentations/' + presi, {title: presi, presi: presi, session: session, mode: mode});
 };
