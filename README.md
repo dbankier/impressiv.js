@@ -27,7 +27,7 @@ The are three different routes depending on the viewing mode.
 progress the slide for the audience. (It uses basic authetication.)
 * /live/{presi} - view for the audience.
 
-Replace "{presi}" with the the name of your jade file without the
+Replace "{presi}" with the name of your jade file without the
 extension (e.g. sample). 
 
 ### Configuration
